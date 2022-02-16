@@ -5,6 +5,9 @@
   "main": "server.js",
   "type": "module",
   "dependencies": {
+    "@babel/core": "^7.17.4",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.0",
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "dotenv": "^14.3.0",
