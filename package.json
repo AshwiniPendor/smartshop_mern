@@ -2,7 +2,7 @@
   "name": "smartshop",
   "version": "1.0.0",
   "description": "MERN shopping cart app",
-  "main": "server.js",
+  "main": "Server.js",
   "type": "module",
   "dependencies": {
     "@babel/core": "^7.17.4",
