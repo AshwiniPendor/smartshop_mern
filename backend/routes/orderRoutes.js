@@ -8,7 +8,7 @@ import {
     getMyOrders,
     getOrders,
   } from '../controllers/orderController.js'
-import { protect, admin } from '../middleware/authMiddleware.js'
+import { protect, admin } from '../middleware/authmiddleware.js'
 
 router.route('/').post(protect, addOrderItems).get(protect, admin, getOrders)
 router.route('/myorders').get(protect, getMyOrders)
